@@ -6,11 +6,11 @@ produce probabilistic revenue forecasts across US Walmart stores and departments
 Audience: a retail planning lead who must decide which forecast to trust at which level (total, state, store, department) and how much
 buffer to plan around it. Data: M5 Walmart weekly revenue, 2011-01-29 to 2016-05-20, 10 stores in CA, TX, WI. Every file in
 `tableau/data/` is a derived aggregate; no raw M5 file is used. Tableau Public limits: all CSVs together are far below 100 MB; do not use
-live connections; connect to the CSVs as extracts. Published at https://public.tableau.com/app/profile/abhishek.thakur1845/viz/HierarchicalRevenueForecastingM5/M5ForecastStory (see the next section for what was actually built).
+live connections; connect to the CSVs as extracts. Published at https://public.tableau.com/app/profile/krushmi/viz/HierarchicalRevenueForecastingM5_17943362508770/Thestory (see the next section for what was actually built).
 
 ## Published version (what was actually built)
 
-The dashboard is published at https://public.tableau.com/app/profile/abhishek.thakur1845/viz/HierarchicalRevenueForecastingM5/M5ForecastStory.
+The dashboard is published at https://public.tableau.com/app/profile/krushmi/viz/HierarchicalRevenueForecastingM5_17943362508770/Thestory.
 
 The published version is a single scrolling story page, built in Tableau Public web authoring from the flattened CSVs in `tableau/web/` (see `tableau/web/README.md`).
 It opens with a headline question ("Which forecast should a planning manager trust, and how much safety stock does it justify?") and follows the section order of
