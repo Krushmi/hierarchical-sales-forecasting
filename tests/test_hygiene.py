@@ -68,7 +68,7 @@ def test_r_script_parses():
     assert res.returncode == 0, res.stderr
 
 
-TABLEAU_URL = "https://public.tableau.com/app/profile/abhishek.thakur1845/viz/HierarchicalRevenueForecastingM5/M5ForecastStory"
+TABLEAU_URL = "https://public.tableau.com/app/profile/krushmi/viz/HierarchicalRevenueForecastingM5_17943362508770/Thestory"
 
 
 def test_readme_links_published_tableau_dashboard_and_mentions_licence():
